@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages-proyecto28/static/css/main.ce88e16b.chunk.css",
+    "main.js": "/react-gh-pages-proyecto28/static/js/main.e37dcc41.chunk.js",
+    "main.js.map": "/react-gh-pages-proyecto28/static/js/main.e37dcc41.chunk.js.map",
+    "runtime-main.js": "/react-gh-pages-proyecto28/static/js/runtime-main.054de231.js",
+    "runtime-main.js.map": "/react-gh-pages-proyecto28/static/js/runtime-main.054de231.js.map",
+    "static/css/2.1935a16d.chunk.css": "/react-gh-pages-proyecto28/static/css/2.1935a16d.chunk.css",
+    "static/js/2.26e9afd5.chunk.js": "/react-gh-pages-proyecto28/static/js/2.26e9afd5.chunk.js",
+    "static/js/2.26e9afd5.chunk.js.map": "/react-gh-pages-proyecto28/static/js/2.26e9afd5.chunk.js.map",
+    "static/js/3.eff4fed3.chunk.js": "/react-gh-pages-proyecto28/static/js/3.eff4fed3.chunk.js",
+    "static/js/3.eff4fed3.chunk.js.map": "/react-gh-pages-proyecto28/static/js/3.eff4fed3.chunk.js.map",
+    "index.html": "/react-gh-pages-proyecto28/index.html",
+    "static/css/2.1935a16d.chunk.css.map": "/react-gh-pages-proyecto28/static/css/2.1935a16d.chunk.css.map",
+    "static/css/main.ce88e16b.chunk.css.map": "/react-gh-pages-proyecto28/static/css/main.ce88e16b.chunk.css.map",
+    "static/js/2.26e9afd5.chunk.js.LICENSE.txt": "/react-gh-pages-proyecto28/static/js/2.26e9afd5.chunk.js.LICENSE.txt",
+    "static/media/collage-login.e4d06bad.png": "/react-gh-pages-proyecto28/static/media/collage-login.e4d06bad.png",
+    "static/media/collage.e118b2a5.png": "/react-gh-pages-proyecto28/static/media/collage.e118b2a5.png",
+    "static/media/hustle.894e4336.png": "/react-gh-pages-proyecto28/static/media/hustle.894e4336.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.054de231.js",
+    "static/css/2.1935a16d.chunk.css",
+    "static/js/2.26e9afd5.chunk.js",
+    "static/css/main.ce88e16b.chunk.css",
+    "static/js/main.e37dcc41.chunk.js"
+  ]
+}
