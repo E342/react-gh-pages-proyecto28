@@ -1,0 +1,94 @@
+.navbar-container-admin{
+    background-color: #730260;
+    height: 15vh;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content:center;
+}
+@media only screen and (max-device-width: 1024px){
+    .navbar-container-admin{
+        height: 15vh;
+        width: 100%;
+        justify-content:center;
+    }
+    .navbar-options .left-side{
+    width:25%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%
+    }
+    .navbar-options{
+        width:75%;
+    }
+    .left-side img{
+        width:200px;
+    }
+}
+@media only screen and (max-device-width: 768px){
+    .navbar-container-admin{
+        height: 15vh;
+        width: 100%;
+        justify-content:center;
+    }
+    .navbar-options .left-side{
+    width:30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    margin-left:30px;
+    }
+    .navbar-options{
+        width:70%;
+    }
+    .left-side img{
+        width:150px;
+      
+    }
+}
+@media only screen and (max-device-width: 540px){
+    .navbar-container-admin{
+        height: 15vh;
+        width: 100%;
+        justify-content:center;
+    }
+   .left-side{
+    width:30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    margin-left:30px;
+    }
+    .navbar-options button{
+        width:70%;
+        font-size:1.5em;
+    }
+    .left-side img{
+        width:100px;
+    }
+}
+@media only screen and (max-device-width: 411px){
+    .navbar-container-admin{
+        height: 15vh;
+        width: 100%;
+        justify-content:center;
+    }
+   .left-side{
+    width:30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    margin-left:30px;
+    }
+    .navbar-options button{
+        width:70%;
+        font-size:1.5em;
+    }
+    .left-side img{
+        width:100px;
+    }
+}

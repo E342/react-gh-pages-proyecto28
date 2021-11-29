@@ -1,0 +1,52 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.carousel{
+    margin: auto;
+    width: 70vw;
+    height: 90vh;
+    background-color:white;
+    
+}
+
+@media only screen and (max-device-width: 1024px){
+    .carousel{
+      padding: 0;
+        width: 80vw;
+        height: 95vh;
+    }
+}
+@media only screen and (max-device-width: 768px){
+    .carousel{
+      padding: 0;
+        width: 80vw;
+        height: 95vh;
+    }
+}
+@media only screen and (max-device-width: 540px){
+    .carousel{
+      padding: 0;
+        width: 75vw;
+    }
+}
+@media only screen and (max-width: 480px){
+    .carousel{
+        padding-left: 30vw;
+        width: 100vw;
+        height: 95vh;
+    }
+}
+@media only screen and (max-device-width: 414px){
+    .carousel{
+      padding: 0;
+        width: 80vw;
+  
+    }
+}
+@media only screen and (max-device-width: 411px){
+    .carousel{
+      padding: 0;
+        width: 90vw;
+  
+    }
+}
+

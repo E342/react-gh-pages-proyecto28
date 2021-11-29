@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.navbar-container-main{
+    background-color: #730260;
+    height: 20vh;
+    width: 100vw;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logout{
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.15);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #eceeef;
+    height: 6.8vh ;
+    width: 3vw;
+}
+.logout:hover{
+    cursor: pointer;
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+input{
+    width: 20vw;
+    height: 6vh;
+}
+
+@media only screen and (max-width: 1024px) and (min-width:800px){
+    .search-container input{
+        width: 30vw;
+        height: 7vh;
+        font-size: 16px;
+    }
+    .logout{
+        font-size: 35px;
+        height: 7.6vh ;
+        width: 5vw;
+    }
+} 
+@media only screen and (max-device-width: 1023px){
+    .logout{
+        height: 7.8vh ;
+        width: 6vw;
+        font-size: 27px;
+    }
+    input{
+        width: 25vw;
+        height: 6vh;
+        font-size: 12px;
+    }   
+}
+@media only screen and (max-device-width: 768px){
+    .logout{
+        height: 6.8vh ;
+        width: 5vw;
+    }
+    input{
+        width: 25vw;
+        height: 6vh;
+        font-size: 12px;
+    }   
+}
+@media only screen and (max-device-width: 767px){
+    .logout{
+        height: 6.9vh ;
+        width: 6vw;
+    }
+}
+@media only screen and (max-device-width: 480px){
+    .navbar-container-main{
+        background-color: #730260;
+        height: 20vh;
+        width: 160vw;
+    }
+    .logout{
+        height: 6.9vh ;
+        width: 10vw;
+    }
+    input{
+        width: 45vw;
+        height: 6vh;
+    }
+}
+@media only screen and (max-device-width: 480px){
+    .logout{
+        height: 6.9vh ;
+        width: 15vw;
+    }
+}

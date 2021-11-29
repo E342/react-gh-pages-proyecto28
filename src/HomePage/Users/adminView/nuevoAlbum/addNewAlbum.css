@@ -1,0 +1,132 @@
+.new-album-container{
+    margin: auto;
+    width: 60vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.error{
+    color: red;
+    padding-left: 1vw;
+}
+.image{
+    text-align: center;
+    background-color: #eceeef;
+    width: 2vw;
+    border: 1px solid rgba(0,0,0,.15);
+    font-size: 25px;
+    text-align: center;
+    padding: 4px 10px;
+    margin-bottom: 0;
+}
+.singer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.album-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.new-album-container form{
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+    justify-content: center;
+    padding-right: 25px;
+}
+.btn-container-album{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3vh;
+}
+.add-btn{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin: 40px;
+    background-color: #730260;
+    color: white;
+    text-decoration: none;
+    border:none;
+    width: 10vw;
+    height: 6vh;
+    margin-left: 10vw;
+}
+.add-btn:hover{
+    cursor: pointer;
+}
+.btn-container-album button{
+    font-size: 18px;
+    margin: 15px;
+}
+@media only screen and (max-width: 1024px) and (min-width:800px){
+    .new-album-container input{
+        width: 30vw;
+    }
+    .image{
+        width: 3vw;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-device-width: 1023px){
+    .new-album-container{
+        width: 70vw;
+    }
+    .album-container input{
+        width: 35vw;
+        font-size: 15px;
+    }
+    .image{
+        width: 4vw;
+        font-size: 25px;
+        padding-top: 1vh;
+    }
+    .btn-container-album button{
+        font-size: 17px;   
+    }
+    .add-btn{
+        width: 10vw;
+        height: 7vh;
+    }
+}
+@media only screen and (max-device-width: 768px){
+    .new-album-container{
+        width: 75vw;
+    }
+    .album-container input{
+        width: 35vw;
+        font-size: 10px;
+    }
+    .image{
+        width: 3vw;
+    }
+    .btn-container-album button{
+        font-size: 15px;   
+    }
+    .add-btn{
+        width: 10vw;
+        height: 7vh;
+    }
+}
+@media only screen and (max-device-width: 480px){
+    .new-album-container{
+        width: 110vw;
+        height: 80vh;
+    }
+    .album-container input{
+        width: 55vw;
+        font-size: 12px;
+    }
+    .image{
+        width: 5vw;
+    }
+    .add-btn{
+        width: 20vw;
+        height: 8vh;
+        padding: 10px;
+    }
+}

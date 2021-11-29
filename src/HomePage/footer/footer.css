@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+footer{
+    background-color: #730260;
+    height: 100%;
+    width: 100vw;
+    color: white;
+}
+h4{
+    font-family: 'Graduate', cursive; 
+}
+.footer-container{  
+    display: flex;
+    flex-direction: column;  
+    flex: 1; 
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+}
+li{
+    list-style: none;
+    font-family: 'Prompt', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.list-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+.list-social li{
+    padding-right: 10px;
+}
+
+@media only screen and (max-device-width: 1024px){
+    footer{
+        height: 17vh;
+        width: 100vw;
+    }
+    h4{
+        font-family: 'Graduate', cursive; 
+        font-size: 1.5em;
+    }
+    li{
+        font-size: 1.4em;
+    }
+    .list-social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-device-width: 768px){
+    footer{
+        height: 23vh;
+        width: 100vw;
+    }
+    h4{
+        font-family: 'Graduate', cursive; 
+        font-size: 1.5em;
+    }
+    li{
+        font-size: 1.4em;
+    }
+    .list-social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-device-width: 540px){
+    footer{
+        height: 20vh;
+        width: 100vw;
+    }
+    h4{
+        font-family: 'Graduate', cursive; 
+        font-size: 1em;
+    }
+    li{
+        font-size: 0.9em;
+    }
+    .list-social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width: 480px){
+    footer{
+        width: 160vw;
+    }
+}
+@media only screen and (max-device-width: 414px){
+    footer{
+        height: 35vh;
+        width: 100vw;
+    }
+    h4{
+        font-family: 'Graduate', cursive; 
+        font-size: 1em;
+    }
+    li{
+        font-size: 0.9em;
+    
+    }
+    .list-social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+    .row{
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 0;
+    }
+    .list{
+        text-align: center;  
+        padding: 0;
+    }
+    .column{
+width: 45%;
+    }
+}
+@media only screen and (max-device-width: 411px){
+    footer{
+        height: 36vh;
+        width: 100vw;
+    }
+    h4{
+        font-family: 'Graduate', cursive; 
+        font-size: 1em;
+    }
+    li{
+        font-size: 0.9em;
+    }
+    .list-social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-device-width: 375px){
+    footer{
+        height: 35vh;
+        width: 100vw;
+    }
+    h4{
+        font-family: 'Graduate', cursive; 
+        font-size: 1em;
+    }
+    li{
+        font-size: 0.9em;
+    }
+    .list-social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-device-width: 360px){
+    footer{
+        height: 45vh;
+        width: 100vw;
+    }
+    h4{
+        font-family: 'Graduate', cursive; 
+        font-size: 1em;
+    }
+    li{
+        font-size: 0.9em;
+    }
+    .list-social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-device-width: 280px){
+    footer{
+        height: 36vh;
+        width: 100vw;
+    }
+    h4{
+        font-family: 'Graduate', cursive; 
+        font-size: 0.8em;
+    }
+    li{
+        font-size: 0.7em;
+    }
+    .list-social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+}
+
+

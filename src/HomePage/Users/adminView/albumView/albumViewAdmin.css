@@ -1,0 +1,214 @@
+.admin-container{
+    width: 100vw;
+    height: auto;
+}
+.admin-container h1{
+    text-align:left;
+    padding-left: 10vw;
+}
+.search-container-admin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.search-container-admin input{
+    width: 30vw;
+}
+.new-album{
+    padding: 20px;
+    width: 10vw;
+    height: 10vh;
+    background-color: #730260;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20vw;
+}
+.new-album:hover{
+    cursor: pointer;
+}
+.search{
+    border: 1px solid rgba(0,0,0,.15);
+    background-color: #eceeef;
+    font-size: 25px;
+    text-align: center;
+    width: 3vw;
+    height: 7vh;
+}
+.search:hover{
+    cursor: pointer;
+}
+@media only screen and (max-device-width: 1024px){
+    .search-container-admin input{
+        width: 40vw;
+        font-size: 17px;
+    }
+    .search{
+        width: 5vw;
+        height: 7vh;
+    }
+    .new-album{
+        width: 15vw;
+        height: 10vh;
+        font-size: 25px;
+    }
+}
+@media only screen and (max-device-width: 768px){
+    .search-container-admin input{
+        width: 60vw;
+        height:70px;
+        font-size: 17px;
+    }
+    .search{
+        width: 9vw;
+        height: 7.5vh;
+    }
+    .new-album{
+        width: 20vw;
+        height: 10vh;
+        font-size: 25px;
+        margin-left:20px;
+    }
+}
+@media only screen and (max-device-width: 540px){
+    .search-container-admin input{
+        width: 60vw;
+        height:50px;
+        font-size: 15px;
+    }
+    .search{
+        width: 9vw;
+        height: 7.5vh;
+    }
+    .new-album{
+        width: 20vw;
+        height: 10vh;
+        font-size: 18px;
+        margin-left:20px;
+    }
+}
+@media only screen and (max-device-width: 414px){
+    .search-container-admin input{
+        width: 60vw;
+        height:40px;
+        font-size: 13px;
+    }
+    .search{
+        width: 9vw;
+        height: 6.5vh;
+    }
+    .new-album{
+        width: 20vw;
+        height: 10vh;
+        font-size: 15px;
+        margin-left:20px;
+    }
+}
+@media only screen and (max-device-width: 411px){
+    .search-container-admin input{
+        width: 60vw;
+        height:46px;
+        font-size: 13px;
+    }
+    .search{
+        width: 9vw;
+        height: 6.5vh;
+    }
+    .new-album{
+        width: 20vw;
+        height: 10vh;
+        font-size: 15px;
+        margin-left:20px;
+    }
+}
+@media only screen and (max-device-width:375px){
+    .search-container-admin input{
+        width: 60vw;
+        height:46px;
+        font-size: 13px;
+    }
+    .search{
+        width: 12vw;
+        height: 6.5vh;
+        margin-left:20px;
+    }
+    .new-album{
+        width: 30vw;
+        height: 10vh;
+        font-size: 15px;
+        margin-left:20px;
+        margin-top:20px;
+    }
+    .search-container-admin{
+        flex-wrap:wrap;
+    }
+}
+@media only screen and (max-device-width:360px){
+    .search-container-admin input{
+        width: 60vw;
+        height:46px;
+        font-size: 13px;
+    }
+    .search{
+        width: 12vw;
+        height: 6.5vh;
+        margin-left:20px;
+    }
+    .new-album{
+        width: 30vw;
+        height: 10vh;
+        font-size: 15px;
+        margin-left:20px;
+        margin-top:20px;
+    }
+    .search-container-admin{
+        flex-wrap:wrap;
+    }
+}
+@media only screen and (max-device-width:320px){
+    .search-container-admin input{
+        width: 70vw;
+        height:46px;
+        font-size: 13px;
+    }
+    .search{
+        width: 12vw;
+        height: 9vh;
+        margin-left:20px;
+    }
+    .new-album{
+        width: 30vw;
+        height: 10vh;
+        font-size: 15px;
+        margin-left:20px;
+        margin-top:20px;
+    }
+    .search-container-admin{
+        flex-wrap:wrap;
+    }
+}
+@media only screen and (max-device-width:280px){
+    .search-container-admin input{
+        width: 75vw;
+        height:46px;
+        font-size: 13px;
+    }
+    .search{
+        width: 12vw;
+        height: 8vh;
+        margin-left:20px;
+    }
+    .new-album{
+        width: 40vw;
+        height: 10vh;
+        font-size: 15px;
+        margin-left:20px;
+        margin-top:20px;
+    }
+    .search-container-admin{
+        flex-wrap:wrap;
+    }
+}

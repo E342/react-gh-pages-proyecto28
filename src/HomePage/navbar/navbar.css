@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.navbar-container{
+    background-color: #730260;
+    height: 15vh;
+    width: 100vw;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-options{
+    display: flex;
+    flex: 60%;
+    justify-content: flex-end;
+    margin: 30px;
+    padding-right: 25px;
+}
+.left-side{
+    flex: 25%;
+    justify-content: flex-start;
+}
+img{
+    width: 10vw;
+    height: auto;
+    margin-top: 30px;
+    position: relative;
+    bottom:12px;
+}
+.navbar-btn{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    margin: 40px;
+    background-color: #730260;
+    color: white;
+    text-decoration: none;
+    border:none;
+}
+.navbar-btn:hover{
+    cursor: pointer;
+}
+ 
+@media only screen and (max-device-width: 1024px){
+    img{
+        width: 12vw;
+    }
+    .navbar-btn{
+        font-size: 35px;
+        margin: 0%;
+    }
+    .navbar-options{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-device-width: 768px){
+    img{
+        width: 15vw;
+    }
+    .navbar-btn{
+        font-size: 30px;
+        margin: 0%;
+    }
+    .navbar-options{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-device-width: 540px){
+    img{
+        width: 15vw;
+    }
+    .navbar-btn{
+        font-size: 20px;
+        margin: 0%;
+    }
+}
+@media only screen and (max-device-width: 414px){
+    img{
+        width: 15vw;
+    }
+    .navbar-btn{
+        font-size: 16px;
+        margin: 0%;
+    }
+    .navbar-options{
+        width: 75%;
+        margin: 0;
+    }
+}
+@media only screen and (max-device-width: 411px){
+    img{
+        width: 15vw;
+    }
+    .navbar-btn{
+        font-size: 17px;
+        margin: 0%;
+    }
+}
+@media only screen and (max-device-width: 375px){
+    img{
+        width: 15vw;
+    }
+    .navbar-btn{
+        font-size: 20px;
+        margin: 0%;
+    }
+    .navbar-options{
+        width:100%;
+        padding: 0;
+    }
+    .navbar-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-device-width: 360px){
+    img{
+        width: 20vw;
+    }
+    .navbar-btn{
+        font-size: 20px;
+        margin: 0%;
+    }
+    .navbar-options{
+        width:100%;
+        padding: 0;
+    }
+    .navbar-container{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+}
+@media only screen and (max-device-width: 320px){
+    img{
+        width: 20vw;
+    }
+    .navbar-btn{
+        font-size: 20px;
+        margin: 0%;
+    }
+    .navbar-options{
+        width:100%;
+        padding: 0;
+    }
+    .navbar-container{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+}
+@media only screen and (max-device-width: 280px){
+    img{
+        width: 15vw;
+    }
+    .navbar-btn{
+        font-size: 17px;
+        margin: 0%;
+    }
+    .navbar-options{
+        width:100%;
+        padding: 0;
+    }
+    .navbar-container{
+        display: flex;
+        flex-direction: column;
+        height: 15vh;
+    }
+}
+
+
